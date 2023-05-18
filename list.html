@@ -5,13 +5,12 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 	<title>Data Structure Code</title>
-	
+
 
 	<!--css-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/viz.css">
-
 	<link rel="stylesheet" href="css/list.css">
 
 	<!--js-->
@@ -31,18 +30,23 @@
 </head>
 
 <body>
+	<header id="header">
+		<div class="name">
+			<h1>
+				<a id="home" href="index.html">Data Structure Visualization</a>
+			</h1>
+		</div>
+		<nav id="navigation">
+			<span id="title"><h2>
+				<a id="title-LL" class="selected-viz">Linked List</a>
+				<a id="title-Stack">Stack</a>
+				<a id="title-Queue">Queue</a>
+				<a id="title-DLL">Doubly Linked List</a>
+				<a id="title-Deque">Deque</a></h2>
+			</span>
+		</nav>
+	</header>
 
-	<nav id="navigation">
-		<a id="home" href="index.html">DSvisualization</a>
-		<span id="title">
-			<a id="title-LL" class="selected-viz">Linked List</a>
-			<a id="title-Stack">Stack</a>
-			<a id="title-Queue">Queue</a>
-			<a id="title-DLL">Doubly Linked List</a>
-			<a id="title-Deque">Deque</a>
-		</span>
-	
-	</nav>
 
 	<div id="viz"></div>
 
@@ -258,7 +262,7 @@
 	<div id="codetrace-hide" class="panel-hide"><img src="img/arrow_white_right.png"
 			title="show/hide codetrace panel" /></div>
 
-	
+
 
 	<div id="bottom-bar">
 
@@ -281,7 +285,7 @@
 		<div id="progress-bar" class="media-control-button"></div>
 	</div>
 
-	
+
 
 	<!--tutorial dialogs here-->
 	<div id="list-tutorial-1" class="tutorial-dialog">
@@ -290,7 +294,7 @@
 			words, a link) to the next vertex in the sequence. </span>
 		<div class="tutorial-next">Next<img src="img/arrow_white_right.png" /></div>
 	</div>
-	
+
 
 	<script src="js/graph_library/constant.js"></script>
 	<script src="js/graph_library/properties.js"></script>
